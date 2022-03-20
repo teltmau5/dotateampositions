@@ -2,6 +2,7 @@
   "name": "dota-position",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://teltmau5.github.io/dotateampositions/",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.2",
