@@ -7,13 +7,7 @@ import { TrashIcon } from "@heroicons/react/solid";
 function DotaPlayerIndex() {
   var roles = [1, 2, 3, 4, 5];
 
-  const [players, setPlayers] = useState<DotaPlayer[]>([
-    new DotaPlayer("A", [1, 2], null),
-    new DotaPlayer("B", [3, 4], null),
-    new DotaPlayer("C", [5], null),
-    new DotaPlayer("D", [1, 2, 3, 4, 5], null),
-    new DotaPlayer("E", [1, 4], null),
-  ]);
+  const [players, setPlayers] = useState<DotaPlayer[]>([]);
 
   function addPlayer(newPlayerName: string) {
     var newValue = [...players, new DotaPlayer(newPlayerName, [], null)];
